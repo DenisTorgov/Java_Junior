@@ -44,7 +44,8 @@ public class Student implements Serializable {
     public int getAge() {
         return age;
     }
-//    public double getGPA() {
-//        return GPA;
-//    }
+    @JsonIgnore
+    public double getGPA() {
+        return GPA;
+    }
 }
